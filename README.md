@@ -1,4 +1,4 @@
-# Some data science projects I have worked on.
+Some data science projects I have worked on.
 
 ## Fraud Detection
 With data obtained from Kaggle, XGBoost and cross-validation, I created a model that can predict when credit card fraud has occurred with a test set F1-score of 0.88. Since
