@@ -9,5 +9,4 @@ validation set F1-score. The Jupyter notebook titled fraud_detection holds all o
 
 ## Shakespeare Generation with a Character Level RNN
 I used a LSTM RNN to generate Shakespeare-like text by predicting the next character in a sequence. The model can generate actual words and use punctuation, but the text
-doesn't make sense overall. And I believe it still makes up some words. But I think it's still pretty cool. A Chat-GPT-like model would use transformers instead of a RNN and 
-tokens instead of characters. The Jupyter notebook titled Shakespeare_RNN holds the model and some text it generated after training.
+doesn't make sense overall. And it still makes up some words. But I think it's not bad for its size/limitations. The Jupyter notebook titled Shakespeare_RNN holds the model and some text it generated after training.
