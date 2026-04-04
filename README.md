@@ -7,4 +7,7 @@ model evaluation metrics instead. A boosted classification forest was fit using 
 precision scoring metric. Then a probability threshold was selected using Scikit-learn's tuned threshold cross-validation to find the threshold which resulted in the best 
 validation set F1-score. The Jupyter notebook titled fraud_detection holds all of the code.
 
-## To be added later: Pneumonia detection with CNNs
+## Shakespeare Generation with a Character Level RNN
+I used a LSTM RNN to generate Shakespeare-like text by predicting the next character in a sequence. The model can generate actual words and use punctuation, but the text
+doesn't make sense overall. And I believe it still makes up some words. But I think it's still pretty cool. A Chat-GPT-like model would use transformers instead of a RNN and 
+tokens instead of characters. The Jupyter notebook titled Shakespeare_RNN holds the model and some text it generated after training.
