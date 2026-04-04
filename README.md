@@ -8,5 +8,5 @@ precision scoring metric. Then a probability threshold was selected using Scikit
 validation set F1-score. The Jupyter notebook titled fraud_detection holds all of the code.
 
 ## Shakespeare Generation with a Character Level RNN
-I used a LSTM RNN to generate Shakespeare-like text by predicting the next character in a sequence. The model can generate actual words and use punctuation, but the text
+I used a LSTM RNN to generate Shakespeare-like text by predicting the next character in a sequence of characters. The model can generate actual words and use punctuation, but the text
 doesn't make sense overall. And it still makes up some words. But I think it's not bad for its size/limitations. The Jupyter notebook titled Shakespeare_RNN holds the model and some text it generated after training.
